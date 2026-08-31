@@ -1,0 +1,6 @@
+interface:
+  display_name: "MiniMax 原创歌曲与歌词视频"
+  short_description: "从故事和参考曲生成 MP3，再制作照片驱动的竖屏歌词 MP4"
+  default_prompt: "Use $minimax-song-video to turn my story, reference song, and photo into an original song and vertical lyric video."
+policy:
+  allow_implicit_invocation: true
