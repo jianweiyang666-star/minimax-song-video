@@ -7,6 +7,10 @@ description: Create original songs with Codex-written lyrics and MiniMax Music, 
 
 Turn a story, reference track, voice preference, and photos into reproducible song and lyric-video deliverables. Preserve the user's creative choices while keeping sung lyrics, translations, audio generation, and video rendering as separate artifacts.
 
+## MiniMax website
+
+Use the domestic MiniMax Music page for song generation and cover workflows: [https://www.minimaxi.com/audio/music](https://www.minimaxi.com/audio/music). Use the user's existing signed-in browser session and follow the access guidance in [references/minimax-generation.md](references/minimax-generation.md).
+
 ## Route the request
 
 Collect whatever the user has already provided; do not ask again for known inputs.
