@@ -27,8 +27,9 @@ Inspect the author's photo before coding. Identify subject location, quiet negat
 1. **Direct photo:** use the original when a 9:16 crop preserves the subject and leaves enough space for title, controls, and lyrics.
 2. **Extended photo:** outpaint or extend the supplied photo to 9:16 when the subject is correct but the crop is too tight. Preserve the original center region and extend only the missing canvas.
 3. **Photo-derived background:** generate a new background using the supplied photo as visual reference when the user wants a designed scene rather than a literal crop. Preserve the recognizable subject, palette, lighting, texture, location cues, and emotional tone. Do not silently replace a person, landmark, or meaningful object.
+4. **Photo-zine background:** when the user wants a paper collage, editorial print, torn-photo, or simplified photo-plus-illustration treatment, read [photo-zine-background.md](photo-zine-background.md). Build the 9:16 background from the source scene rather than applying a generic vintage filter.
 
-Use the image-generation skill for modes 2 or 3. Inspect the supplied image first and save the generated result as a separate asset; never overwrite the author's original. Prefer direct photo mode when it already works.
+Use the image-generation skill for modes 2, 3, or 4. Inspect the supplied image first and save the generated result as a separate asset; never overwrite the author's original. Prefer direct photo mode when it already works.
 
 ## Interface and layout
 

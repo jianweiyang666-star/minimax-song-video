@@ -43,6 +43,7 @@ Use `scripts/validate_caption_pair.py` before rendering bilingual captions. It v
 - Treat the author's photo as the visual source of truth.
 - Use it directly when crop, resolution, and negative space work for 9:16.
 - When the photo cannot support a clean vertical layout, Codex may generate or extend a 9:16 background from the photo as a reference. Preserve the recognizable subject, palette, lighting, texture, and location cues; do not invent a different person, place, or story.
+- When the user wants the supplied photo refined into a tactile editorial collage, paper-zine, or photo-plus-illustration background, read [references/photo-zine-background.md](references/photo-zine-background.md). Use its scene-card, abstraction, structural-color, and torn-edge workflow while reserving quiet areas for the Remotion title and lyrics.
 - Analyze the actual title and lyric regions after cropping. Automatically derive readable primary, translation, inactive, accent, shadow, and scrim colors from the local background rather than using a fixed white-text theme.
 - Keep the original photo unchanged and save any generated background as a separate asset.
 
